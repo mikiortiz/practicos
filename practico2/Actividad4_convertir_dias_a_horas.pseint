@@ -1,0 +1,8 @@
+Algoritmo ConvertirDiasAHoras
+    Definir dias Como Entero
+    Definir horas Como Entero
+    Escribir "Ingrese el número de días: "
+    Leer dias
+    horas = dias * 24
+    Escribir "La cantidad de horas es: ", horas
+FinAlgoritmo

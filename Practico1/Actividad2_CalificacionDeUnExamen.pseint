@@ -1,0 +1,10 @@
+Algoritmo CalificacionDeUnExamen
+    Definir calificacion Como Real
+    Escribir "Ingresar nota (0-100)"
+    Leer calificacion
+    Si calificacion >= 60 Entonces
+        Escribir "El alumno ha Aprobado"
+    Sino
+        Escribir "El alumno ha Desaprobado"
+    FinSi
+FinAlgoritmo

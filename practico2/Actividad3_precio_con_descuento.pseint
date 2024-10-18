@@ -1,0 +1,11 @@
+Algoritmo PrecioConDescuento
+    Definir precio Como Real
+    Definir descuento Como Real
+    Escribir "Ingrese el precio del producto: "
+    Leer precio
+    Si precio > 100 Entonces
+        descuento = precio * 0.10
+        precio = precio - descuento
+    FinSi
+    Escribir "El precio final es: ", precio
+FinAlgoritmo

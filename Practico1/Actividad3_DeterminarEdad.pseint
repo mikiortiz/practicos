@@ -1,0 +1,8 @@
+Algoritmo DeterminarEdad
+    Definir ano_nacimiento Como Entero
+    Escribir "Ingrese su año de nacimiento"
+    Leer ano_nacimiento
+    Definir edad Como Entero
+    edad = 2024 - ano_nacimiento
+    Escribir "Su edad es de: " edad
+FinAlgoritmo

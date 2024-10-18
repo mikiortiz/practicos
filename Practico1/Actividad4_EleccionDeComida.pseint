@@ -1,0 +1,17 @@
+Algoritmo EleccionDeComida
+    Definir eleccion Como Entero
+    Escribir "Elija un número entre 1 y 5"
+    Leer eleccion
+    Segun eleccion Hacer
+        1:
+            Escribir "Ha elegido a la pizza"
+        2:
+            Escribir "Ha elegido a la pasta"
+        3:
+            Escribir "Ha elegido a la ensalada"
+        4:
+            Escribir "Ha elegido a la sushi"
+        5:
+            Escribir "Ha elegido a la tacos"
+    Fin Segun
+FinAlgoritmo

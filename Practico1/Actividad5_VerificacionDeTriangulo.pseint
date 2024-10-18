@@ -1,0 +1,21 @@
+Algoritmo VerificacionDeTriangulo
+    Definir lado1 Como Entero
+    Escribir "Ingrese la longitud del lado1"
+    Leer lado1
+    
+    Definir lado2 Como Entero
+    Escribir "Ingrese la longitud del lado2"
+    Leer lado2
+    
+    Definir lado3 Como Entero
+    Escribir "Ingrese la longitud del lado3"
+    Leer lado3
+    
+    Definir sumaLados Como Entero
+    sumaLados = lado1 + lado2
+    Si sumaLados > lado3 Entonces
+        Escribir "Si forma un triángulo"
+    Sino
+        Escribir "No forma un triángulo"
+    FinSi
+FinAlgoritmo
