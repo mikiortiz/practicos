@@ -1,0 +1,17 @@
+Algoritmo PromedioNumeros
+    Definir n, suma, promedio Como Real
+    Escribir "Ingrese la cantidad de elementos en el vector:"
+    Leer n
+    Dimension vector[n]
+
+    suma <- 0
+
+    Para i <- 1 Hasta n Hacer
+        Escribir "Ingrese el elemento ", i, ": "
+        Leer vector[i]
+        suma <- suma + vector[i]
+    FinPara
+
+    promedio <- suma / n
+    Escribir "El promedio de los números es: ", promedio
+FinAlgoritmo

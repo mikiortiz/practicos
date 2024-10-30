@@ -1,0 +1,24 @@
+Algoritmo ContarMayoresAReferencia
+    Definir n, referencia, contador Como Entero
+    Dimension numeros[100] 
+
+    Escribir "Ingrese la cantidad de números:"
+    Leer n
+
+    Para i <- 1 Hasta n Con Paso 1 Hacer
+        Escribir "Ingrese el número ", i, ": "
+        Leer numeros[i]
+    FinPara
+
+    Escribir "Ingrese el valor de referencia:"
+    Leer referencia
+
+    contador <- 0
+    Para i <- 1 Hasta n Con Paso 1 Hacer
+        Si numeros[i] > referencia Entonces
+            contador <- contador + 1
+        FinSi
+    FinPara
+
+    Escribir "La cantidad de números mayores a ", referencia, " es: ", contador
+FinAlgoritmo

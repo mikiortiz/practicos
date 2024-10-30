@@ -1,0 +1,32 @@
+Algoritmo CompararVectores
+    Definir n Como Entero
+    Escribir "Ingrese la cantidad de elementos en los vectores:"
+    Leer n
+    Dimension vector1[n], vector2[n]
+    
+    Para i <- 1 Hasta n Hacer
+        Escribir "Ingrese el elemento ", i, " del primer vector:"
+        Leer vector1[i]
+    FinPara
+
+    Para i <- 1 Hasta n Hacer
+        Escribir "Ingrese el elemento ", i, " del segundo vector:"
+        Leer vector2[i]
+    FinPara
+
+    Definir sonIguales Como Logico
+    sonIguales <- Verdadero
+
+    Para i <- 1 Hasta n Hacer
+        Si vector1[i] <> vector2[i] Entonces
+            sonIguales <- Falso
+            Romper
+        FinSi
+    FinPara
+
+    Si sonIguales Entonces
+        Escribir "Los vectores son iguales."
+    Sino
+        Escribir "Los vectores no son iguales."
+    FinSi
+FinAlgoritmo

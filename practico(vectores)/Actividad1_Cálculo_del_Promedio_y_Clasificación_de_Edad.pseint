@@ -1,0 +1,22 @@
+Algoritmo PromedioEdad
+    Dimension edades[5]
+    Definir i, suma, promedio Como Real
+    suma <- 0
+
+    Para i <- 1 Hasta 5 Con Paso 1 Hacer
+        Escribir "Ingrese la edad de la persona ", i, ": "
+        Leer edades[i]
+        suma <- suma + edades[i]
+    FinPara
+
+    promedio <- suma / 5
+    Escribir "El promedio de las edades es: ", promedio
+
+    Para i <- 1 Hasta 5 Con Paso 1 Hacer
+        Si edades[i] >= 18 Entonces
+            Escribir "Persona ", i, ": Mayor de edad"
+        Sino
+            Escribir "Persona ", i, ": Menor de edad"
+        FinSi
+    FinPara
+FinAlgoritmo

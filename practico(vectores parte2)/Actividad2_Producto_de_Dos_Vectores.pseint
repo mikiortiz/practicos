@@ -1,0 +1,24 @@
+Algoritmo ProductoDeDosVectores
+    Definir n Como Entero
+    Escribir "Ingrese la cantidad de elementos en los vectores:"
+    Leer n
+    Dimension vector1[n], vector2[n], producto[n]
+
+    Para i <- 1 Hasta n Hacer
+        Escribir "Ingrese el elemento ", i, " del primer vector:"
+        Leer vector1[i]
+    FinPara
+
+    Para i <- 1 Hasta n Hacer
+        Escribir "Ingrese el elemento ", i, " del segundo vector:"
+        Leer vector2[i]
+    FinPara
+
+    Para i <- 1 Hasta n Hacer
+        producto[i] <- vector1[i] * vector2[i]
+    FinPara
+
+    Escribir "Primer vector: ", vector1
+    Escribir "Segundo vector: ", vector2
+    Escribir "Vector resultante (producto): ", producto
+FinAlgoritmo
